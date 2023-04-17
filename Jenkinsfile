@@ -27,7 +27,7 @@ pipeline {
             post {
                 success {
                     echo "Build succeeded, now archiving artifacts"
-                    archiveArtifacts artifacts: '**/*.war'
+                    archiveArtifacts artifacts: '**/*.war', fingerprint: true
                 }
             }
         }
