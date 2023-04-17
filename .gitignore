@@ -1,0 +1,83 @@
+.gitignore
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.war
+*.app
+*.py[cod]
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.bck
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+results
+*.out
+*.db
+
+# Large media files  #
+######################
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# OS generated files #
+######################
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE generated files #
+###########################
+*.classpath
+*.project
+*.settings
+*.idea
+*.swp
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Build specific folders #
+##########################
+=======
+.project
+.gradle
+.settings
+.classpath
+target
+node_modules/
+target/
+dist/
+
+# Project Specific #
+####################
+
+
