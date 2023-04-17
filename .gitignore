@@ -79,5 +79,5 @@ dist/
 
 # Project Specific #
 ####################
-
+.vagrant/
 
